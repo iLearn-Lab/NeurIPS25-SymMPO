@@ -66,7 +66,7 @@ During evaluation, HallusionBench/object-halbench/mmhal-bench need to be assesse
 2. Eval model.
 
 ```bash
-python script/eval/eval_hallusion.sh [ckpt_path] [base_path if use lora ckpt else "No"] [YOUR_DEEPSEEK_API_KEY] [GPU_ID]
+bash script/eval/eval_hallusion.sh [ckpt_path] [base_path if use lora ckpt else "No"] [YOUR_DEEPSEEK_API_KEY] [GPU_ID]
 ```
 
 We default use DeepSeek-V3, Please replace {YOUR_DEEPSEEK_API_KEY} with a valid DeekSeek api-key or directly modify the [48th](https://github.com/Liuwq-bit/SymMPO/blob/master/eval/hallusion_evaluation.py#L48) line in eval/hallusion_evaluation.py.
@@ -92,7 +92,7 @@ python -m spacy download en_core_web_trf
 4. Eval model.
 
 ```bash
-python script/eval/eval_objhal.sh [ckpt_path] [base_path if use lora ckpt else "No"] [YOUR_OPENAI_API_KEY] [GPU_ID]
+bash script/eval/eval_objhal.sh [ckpt_path] [base_path if use lora ckpt else "No"] [YOUR_OPENAI_API_KEY] [GPU_ID]
 ```
 
 We default use **gpt-3.5-turbo-0125**, Please replace {YOUR_OPENAI_API_KEY} with a valid OpenAI api-key or directly modify the [51th](https://github.com/Liuwq-bit/SymMPO/blob/master/eval/gpt4_grpc.py#L51) line in eval/gpt4_grpc.py.
@@ -104,7 +104,7 @@ We default use **gpt-3.5-turbo-0125**, Please replace {YOUR_OPENAI_API_KEY} with
 2. Eval model.
 
 ```bash
-python script/eval/eval_mmhal.sh [ckpt_path] [base_path if use lora ckpt else "No"] [YOUR_OPENAI_API_KEY] [GPU_ID]
+bash script/eval/eval_mmhal.sh [ckpt_path] [base_path if use lora ckpt else "No"] [YOUR_OPENAI_API_KEY] [GPU_ID]
 ```
 
 We default use **gpt-4-1106-preview**, Please replace {YOUR_OPENAI_API_KEY} with a valid OpenAI api-key or directly modify the [51th](https://github.com/Liuwq-bit/SymMPO/blob/master/eval/gpt4_grpc.py#L51) line in eval/gpt4_grpc.py.
@@ -122,7 +122,7 @@ python -m spacy download en_core_web_lg
 3. Eval model.
 
 ```bash
-python script/eval/eval_amber.sh [ckpt_path] [base_path if use lora ckpt else "No"] [GPU_ID]
+bash script/eval/eval_amber.sh [ckpt_path] [base_path if use lora ckpt else "No"] [GPU_ID]
 ```
 
 ### MMSTAR
@@ -132,7 +132,7 @@ python script/eval/eval_amber.sh [ckpt_path] [base_path if use lora ckpt else "N
 2. Eval model.
 
 ```bash
-python script/eval/eval_mmstar.sh [ckpt_path] [base_path if use lora ckpt else "No"] [GPU_ID]
+bash script/eval/eval_mmstar.sh [ckpt_path] [base_path if use lora ckpt else "No"] [GPU_ID]
 ```
 
 ## Acknowledgement <!-- omit in toc -->
