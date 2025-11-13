@@ -122,17 +122,17 @@ python -m spacy download en_core_web_lg
 3. Eval model.
 
 ```bash
-bash script/eval/eval_amber.sh [ckpt_path] [base_path if use lora ckpt else "No"] [GPU_ID]
+bash script/eval/eval_amber.sh [ckpt_path] [base_path if use lora ckpt else "No"] [GPU_ID] [data_dir]
 ```
 
 ### MMSTAR
 
-1. Download data from [MMSTAR](dataset/llava_bench/rule.json).
+1. Download data from [MMSTAR](https://huggingface.co/datasets/Lin-Chen/MMStar).
 
 2. Eval model.
 
 ```bash
-bash script/eval/eval_mmstar.sh [ckpt_path] [base_path if use lora ckpt else "No"] [GPU_ID]
+bash script/eval/eval_mmstar.sh [ckpt_path] [base_path if use lora ckpt else "No"] [GPU_ID] [data_dir]
 ```
 
 ## Acknowledgement <!-- omit in toc -->
