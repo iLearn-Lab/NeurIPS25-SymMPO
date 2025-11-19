@@ -3,7 +3,7 @@
 <div align="center" style="font-size: 15pt">
 
 
-<a href='https://arxiv.org/abs/2506.11712v2'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>
+<a href='https://arxiv.org/abs/2506.11712'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>
 <a href='https://huggingface.co/Tanh01/SymMPO_similar'><img src='https://img.shields.io/badge/Model-7B/13B-orange'></a>
 <a href='https://huggingface.co/datasets/Tanh01/SymMPO_Dataset'><img src='https://img.shields.io/badge/Dataset-HF-yellow'></a>
 
@@ -30,7 +30,7 @@ pip install -r requirements.txt
 
 **1. Prepare data**
 
-We provide demo data in this repository for quick setup and testing. The full training dataset will be released after the double-blind review process.
+The training dataset can be downloaded from [SymMPO_Dataset](https://huggingface.co/datasets/Tanh01/SymMPO_Dataset).
 
 **2. Download the pretrained models**
 
