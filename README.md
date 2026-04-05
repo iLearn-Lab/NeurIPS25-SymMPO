@@ -1,6 +1,7 @@
-# SymMPO: Mitigating Hallucination Through Theory-Consistent Symmetric Multimodal Preference Optimization
-
 <div align="center">
+<h2 align="center"> <b>SymMPO: Mitigating Hallucination Through Theory-Consistent Symmetric Multimodal Preference Optimization</b>
+</h2>
+
 
 <a target="_blank" href="https://github.com/Liuwq-bit">Wenqi&#160;Liu</a><sup>1</sup>,
 <a target="_blank" href="https://scholar.google.com/citations?user=29gP4okAAAAJ">Xuemeng&#160;Song</a><sup>2</sup>,
