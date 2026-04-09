@@ -20,8 +20,9 @@
 <br />
 
 <a href='https://arxiv.org/abs/2506.11712'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>
-<a href='https://huggingface.co/Tanh01/SymMPO_similar'><img src='https://img.shields.io/badge/Model-7B/13B-yellow'></a>
-<a href='https://huggingface.co/datasets/Tanh01/SymMPO_Dataset'><img src='https://img.shields.io/badge/Dataset-HF-blue'></a>
+<a href='https://huggingface.co/iLearn-Lab/NeurIPS25-SymMPO-7B'><img src='https://img.shields.io/badge/Model-7B-yellow'></a>
+<a href='https://huggingface.co/iLearn-Lab/NeurIPS25-SymMPO-13B'><img src='https://img.shields.io/badge/Model-13B-yellow'></a>
+<a href='https://huggingface.co/datasets/iLearn-Lab/NeurIPS25-SymMPO'><img src='https://img.shields.io/badge/Dataset-HF-blue'></a>
 
 </div>
 
